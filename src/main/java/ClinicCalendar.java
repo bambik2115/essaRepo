@@ -9,6 +9,7 @@ public class ClinicCalendar {
 
     public ClinicCalendar() {
         this.appointments = new ArrayList<>();
+        System.out.println("JD");
     }
 
     public void addAppointment(String patientFirstName, String patientLastName, String doctorKey,
